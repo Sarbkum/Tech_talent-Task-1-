@@ -1,0 +1,29 @@
+#1> import the random files
+import random
+
+#2> store a number between 1 and 10 in the num variable
+num = random.randint(1,10)
+
+#3> user types there name and stores in a variable called name
+name = input("What is your name? ")
+
+#4> prints the name the user has typed
+print ("Hiya, ",name)
+
+#5> Ask the user to guess a number between 1 and 10
+num1 = int (input("Guess a number between 1 and 10?"))
+
+if(num1 == num):
+    print ("You have guessed the right number")
+else:
+    print ("incorrect number")
+
+print ("the correct number is",num)
+
+
+
+
+
+
+
+
